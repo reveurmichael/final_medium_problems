@@ -1,13 +1,7 @@
-/*
- @author: lunde chen
- @email: lundechen@shu.edu.cn
- */
-
 package final_medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class FinalExamMedium {
 
@@ -35,6 +29,22 @@ public class FinalExamMedium {
 
     public void swapLastTwoMonsters(){
 
+    }
+
+    public ArrayList<Integer> getPositionsOfDucks(){
+        return null;
+    }
+
+    public ArrayList<Integer> getPositionsOfDragons(){
+        return null;
+    }
+
+    public ArrayList<Integer> getPositionsOfTortoises(){
+        return null;
+    }
+
+    public HashMap<String, ArrayList<Integer>> getHashMapMonsterPositions(){
+        return null;
     }
 
     public void saveArrToTextFile(){
