@@ -6,9 +6,10 @@
 package final_medium;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
-public class MonsterGame {
+public class FinalExamMedium {
 
     ArrayList<Monster> arrMonster = new ArrayList<>();
 
@@ -20,7 +21,7 @@ public class MonsterGame {
         return 0;
     }
 
-    public void sortArr(){
+    public void sortArrUsingComparableInterface(){
 
     }
 
@@ -44,6 +45,10 @@ public class MonsterGame {
     }
 
     public void loadArrFromTextFile(){
+
+    }
+
+    public static void main(String[] args){
 
     }
 
