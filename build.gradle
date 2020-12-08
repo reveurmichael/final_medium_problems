@@ -1,7 +1,7 @@
 buildscript {
-    ext{
-        errorproneVersion = '2.4.0'
-    }
+//    ext{
+//        errorproneVersion = '2.4.0'
+//    }
     repositories {
         mavenLocal()
         mavenCentral()
@@ -15,9 +15,9 @@ plugins {
     // Apply the application plugin to add support for building a CLI application.
     id 'application'
 
-    id 'checkstyle'
+//    id 'checkstyle'
 
-    id "net.ltgt.errorprone" version "1.2.1"
+//    id "net.ltgt.errorprone" version "1.2.1"
 }
 
 repositories {
@@ -29,30 +29,30 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
-    implementation 'com.google.guava:guava:29.0-jre'
+//    implementation 'com.google.guava:guava:29.0-jre'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
 
     // Define ErrorProne
-    errorprone("com.google.errorprone:error_prone_core:$errorproneVersion")
-    errorproneJavac("com.google.errorprone:javac:9+181-r4173-1")
+//    errorprone("com.google.errorprone:error_prone_core:$errorproneVersion")
+//    errorproneJavac("com.google.errorprone:javac:9+181-r4173-1")
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = 'assignment.App'
+    mainClassName = 'final_medium.FinalExamMedium'
 }
 
-tasks.withType(JavaCompile).configureEach {
-    options.errorprone.disableWarningsInGeneratedCode = true
-}
+//tasks.withType(JavaCompile).configureEach {
+//    options.errorprone.disableWarningsInGeneratedCode = true
+//}
 
-checkstyle {
-    toolVersion '8.36'
-}
+//checkstyle {
+//    toolVersion '8.36'
+//}
 
-tasks.withType(JavaCompile).configureEach {
-    options.errorprone.disableWarningsInGeneratedCode = true
-    options.errorprone.enabled = true
-}
+//tasks.withType(JavaCompile).configureEach {
+////    options.errorprone.disableWarningsInGeneratedCode = true
+////    options.errorprone.enabled = false
+//}
