@@ -26,7 +26,7 @@ public class FinalExamMedium {
 
     }
 
-    public void duplicateLastMonster(){
+    public void cloneLastMonster(){
         // TODO: write your code here.
 
     }
@@ -86,7 +86,7 @@ public class FinalExamMedium {
         for(int i = 0; i < size; i ++){
             System.out.println((i + 1) + ": " + arrMonster.get(i));
         }
-        System.out.println("--------------------------");
+        System.out.println("--------------------------\n\n");
     }
 
 }

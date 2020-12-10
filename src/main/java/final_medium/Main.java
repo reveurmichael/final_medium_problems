@@ -36,10 +36,10 @@ public class Main {
                 case "SORT":
                     medium.sortArrUsingComparableInterface();
                     break;
-                case "DUP":
-                    medium.duplicateLastMonster();
+                case "CL":
+                    medium.cloneLastMonster();
                     break;
-                case "UPGRADE":
+                case "UP":
                     medium.upgradeLastMonster();
                     break;
                 case "RS":
@@ -48,7 +48,7 @@ public class Main {
                 case "RW":
                     medium.removeWeakest();
                     break;
-                case "QUIT":
+                case "Q":
                     return;
                 default:
                     System.out.println("Error: INPUT SOMETHING ELSE");
