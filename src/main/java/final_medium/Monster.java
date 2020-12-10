@@ -27,7 +27,7 @@ class Bull extends Monster {
     public Bull(){
         this.name = "Bull";
         this.strength = 8  + new Random().nextInt(10);
-        this.agility = 8 + new Random().nextInt(10);
+        this.agility = 28 + new Random().nextInt(10);
         this.intelligence = 8 + new Random().nextInt(10);
     }
 }
@@ -36,8 +36,8 @@ class Dragon extends Monster {
     public Dragon(){
         this.name = "Dragon";
         this.strength = 29  + new Random().nextInt(10);
-        this.agility = 29 + new Random().nextInt(10);
-        this.intelligence = 29 + new Random().nextInt(10);
+        this.agility = 9 + new Random().nextInt(10);
+        this.intelligence = 9 + new Random().nextInt(10);
     }
 }
 
@@ -45,7 +45,7 @@ class Tortoise extends Monster {
     public Tortoise(){
         this.name = "Tortoise";
         this.strength = 1  + new Random().nextInt(10);
-        this.agility = 1 + new Random().nextInt(10);
+        this.agility = 31 + new Random().nextInt(10);
         this.intelligence = 1 + new Random().nextInt(10);
     }
 }
