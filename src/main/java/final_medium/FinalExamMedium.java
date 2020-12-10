@@ -58,16 +58,6 @@ public class FinalExamMedium {
 
     }
 
-    public void removeStrongest(){
-        // TODO: write your code here.
-
-    }
-
-    public void removeWeakest(){
-        // TODO: write your code here.
-
-    }
-
     public void saveArrToTextFile(){
         // This function won't be tested, it's up to you to conceive how the data should be saved.
         // We will call saveArrToTextFile() first and then loadArrToTextFile(), if we have the same arrMonster,

@@ -42,12 +42,6 @@ public class Main {
                 case "UP":
                     medium.upgradeLastMonster();
                     break;
-                case "RS":
-                    medium.removeStrongest();
-                    break;
-                case "RW":
-                    medium.removeWeakest();
-                    break;
                 case "Q":
                     return;
                 default:
