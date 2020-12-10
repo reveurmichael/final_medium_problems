@@ -10,7 +10,10 @@ public class Monster implements Comparable<Monster> {
 
     public String toString(){
         // Don't modify code in this toString function.
-        return "" + this.name + ": (" + this.strength + ", " + this.agility + ", " + this.intelligence + ")";
+        return "[ " + this.name +
+                ": S = " + this.strength + ", A = " + this.agility + ", I = "
+                + this.intelligence +  ", TOTAL = " +
+                (this.agility + this.intelligence + this.strength) + " ]";
     }
 
     @Override
@@ -20,9 +23,9 @@ public class Monster implements Comparable<Monster> {
     }
 }
 
-class Duck extends Monster {
-    public Duck(){
-        this.name = "Duck";
+class Bull extends Monster {
+    public Bull(){
+        this.name = "Bull";
         this.strength = 8  + new Random().nextInt(10);
         this.agility = 8 + new Random().nextInt(10);
         this.intelligence = 8 + new Random().nextInt(10);
