@@ -23,11 +23,11 @@ public class FinalExamMedium {
 
     }
 
-    public void swapFirstTwoMonsters(){
+    public void swapLastTwoMonsters(){
 
     }
 
-    public void swapLastTwoMonsters(){
+    public void removeAllDragons(){
 
     }
 
@@ -57,10 +57,5 @@ public class FinalExamMedium {
     public void loadArrFromTextFile(){
 
     }
-
-    public static void main(String[] args){
-
-    }
-
 
 }
