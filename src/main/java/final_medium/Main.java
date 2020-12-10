@@ -33,13 +33,13 @@ public class Main {
                 case "RT":
                     medium.removeAllTortoise();
                     break;
-                case "SORT":
+                case "S":
                     medium.sortArrUsingComparableInterface();
                     break;
-                case "CL":
+                case "C":
                     medium.cloneLastMonster();
                     break;
-                case "UP":
+                case "U":
                     medium.upgradeLastMonster();
                     break;
                 case "Q":
