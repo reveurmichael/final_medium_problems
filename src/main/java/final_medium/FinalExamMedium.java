@@ -7,12 +7,16 @@ public class FinalExamMedium {
 
     ArrayList<Monster> arrMonster = new ArrayList<>();
 
-    public void addMonsterToArrTail(Monster monster){
+    public void addOneDragon(){
 
     }
 
-    public int getArrSize(){
-        return 0;
+    public void addOneDuck(){
+
+    }
+
+    public void addOneTortoise(){
+
     }
 
     public void sortArrUsingComparableInterface(){
@@ -31,20 +35,20 @@ public class FinalExamMedium {
 
     }
 
-    public ArrayList<Integer> getPositionsOfDucks(){
-        return null;
+    public void removeAllDucks(){
+
     }
 
-    public ArrayList<Integer> getPositionsOfDragons(){
-        return null;
+    public void removeStrongest(){
+
     }
 
-    public ArrayList<Integer> getPositionsOfTortoises(){
-        return null;
+    public void removeWeakest(){
+
     }
 
-    public HashMap<String, ArrayList<Integer>> getHashMapMonsterPositions(){
-        return null;
+    public void removeAllTortoise(){
+
     }
 
     public void saveArrToTextFile(){

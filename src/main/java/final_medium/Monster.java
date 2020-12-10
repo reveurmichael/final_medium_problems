@@ -9,7 +9,8 @@ public class Monster implements Comparable<Monster> {
     public int intelligence;  //智力
 
     public String toString(){
-        return "" + this.name + " " + this.strength + " " + this.agility + " " + this.intelligence + "";
+        // Don't modify code in this toString function.
+        return "" + this.name + ": (" + this.strength + ", " + this.agility + ", " + this.intelligence + ")";
     }
 
     @Override
