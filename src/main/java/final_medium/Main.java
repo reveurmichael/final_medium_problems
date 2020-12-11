@@ -11,12 +11,12 @@ public class Main {
         String in = "";
         System.out.println("------------GAME BEGINS ------------\n");
         while(true){
-            System.out.println("Input your command: \n");
+            System.out.println("INPUT YOUR COMMAND: \n");
             try {
                 in = scanner.next().toUpperCase().trim();
             }
             catch (Exception e) {
-                System.out.println("Error: INPUT SOMETHING ELSE");
+                System.out.println("INPUT SOMETHING ELSE");
             }
             switch (in) {
                 case "AD":
