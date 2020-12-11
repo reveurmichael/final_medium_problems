@@ -22,11 +22,11 @@ public class DontModifyThisFile {
   public FinalExamMediumCorrectAnswer f = new FinalExamMediumCorrectAnswer();
 
   public ArrayList<Monster> a = f.arrMonster;
-  public int[] ss = new int[]{85002,
-          407059, 494694,
-          728143, 736292,
-          750959, 3321800,
-          3300317};
+  public int[] ss = new int[]{6896113,
+          35455630, 40476538,
+          59244577, 59707323,
+          65189192, 290345485,
+          273790361};
 
   public DontModifyThisFile(){
     Monster.random = new Random(999);
@@ -46,7 +46,7 @@ public class DontModifyThisFile {
     int hhh = 0;
     int i = 1;
     for(char _c: c){
-      hhh += (((int) _c * 97) % 997 + (i * 311) % 541);
+      hhh += ((((int) _c * 541) % 479) * ((i * 311) % 491));
       i ++;
     }
     return hhh;
