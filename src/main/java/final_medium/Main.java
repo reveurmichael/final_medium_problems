@@ -1,15 +1,19 @@
 package final_medium;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        FinalExamMedium medium = new FinalExamMedium();
+    public static void main(String[] args) throws IOException {
+//        FinalExamMedium medium = new FinalExamMedium();
+        FinalExamMediumCorrectAnswer medium = new FinalExamMediumCorrectAnswer();
         Scanner scanner = new Scanner(System.in);
         String in = "";
+        System.out.println("------------GAME BEGINS ------------\n");
         while(true){
+            System.out.println("Input your command: \n");
             try {
-                in = scanner.next().toUpperCase();
+                in = scanner.next().toUpperCase().trim();
             }
             catch (Exception e) {
                 System.out.println("Error: INPUT SOMETHING ELSE");
@@ -33,7 +37,7 @@ public class Main {
                 case "RT":
                     medium.removeAllTortoise();
                     break;
-                case "S":
+                case "SORT":
                     medium.sortArrUsingComparableInterface();
                     break;
                 case "C":
@@ -42,10 +46,17 @@ public class Main {
                 case "U":
                     medium.upgradeLastMonster();
                     break;
+                case "S":
+                    medium.saveArrToTextFile();
+                    break;
+                case "L":
+                    medium.loadArrFromTextFile();
+                    break;
                 case "Q":
+                    System.out.println("-------- GAME OVER --------");
                     return;
                 default:
-                    System.out.println("Error: INPUT SOMETHING ELSE");
+                    System.out.println("INPUT SOMETHING ELSE");
             }
             medium.printArrMonster();
         }

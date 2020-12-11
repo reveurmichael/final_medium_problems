@@ -1,5 +1,9 @@
 package final_medium;
 
+import java.io.*;
+import java.math.*;
+import java.util.Collections;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Monster implements Comparable<Monster> {
@@ -19,7 +23,9 @@ public class Monster implements Comparable<Monster> {
     @Override
     public int compareTo(Monster other) {
         // TODO: modify your code here for the function sortArrUsingComparableInterface()
-        return -1;
+        if(strength + agility + intelligence < other.strength + other.agility + other.intelligence)
+            return -1;
+        return 1;
     }
 }
 
