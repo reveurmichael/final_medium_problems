@@ -27,6 +27,15 @@ public class FinalExamMedium {
 
     public void sortArrUsingComparableInterface(){
         // TODO: write your code here.
+        // The comparison should be based on the sum of (strength + agility + intelligence) value.
+        // For example, if we have:
+        // arrMonster[0] = [ Dragon: S = 38, A = 10, I = 10, TOTAL = 58 ]
+        // arrMonster[1] = [ Tortoise: S = 8, A = 33, I = 6, TOTAL = 47 ]
+        // arrMonster[2] = [ Bull: S = 12, A = 33, I = 9, TOTAL = 54 ]
+        // Then, after calling sortArrUsingComparableInterface() function, we will have:
+        // arrMonster[0] = [ Tortoise: S = 8, A = 33, I = 6, TOTAL = 47 ]
+        // arrMonster[1] = [ Bull: S = 12, A = 33, I = 9, TOTAL = 54 ]
+        // arrMonster[2] = [ Dragon: S = 38, A = 10, I = 10, TOTAL = 58 ]
 
     }
 
