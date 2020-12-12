@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-//        FinalExamMedium medium = new FinalExamMedium();
+
+        FinalExamMedium medium = new FinalExamMedium();
+
         // TODO: modify Class Monster's comparedTo() function
 
-        FinalExamMediumCorrectAnswer medium = new FinalExamMediumCorrectAnswer();
         Scanner scanner = new Scanner(System.in);
         String in = "";
         System.out.println("------------GAME BEGINS ------------\n");
