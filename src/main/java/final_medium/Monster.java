@@ -1,9 +1,5 @@
 package final_medium;
 
-import java.io.*;
-import java.math.*;
-import java.util.Collections;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Monster implements Comparable<Monster> {

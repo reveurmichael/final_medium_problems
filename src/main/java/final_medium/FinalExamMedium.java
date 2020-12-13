@@ -1,7 +1,6 @@
 package final_medium;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.io.*;
 import java.math.*;
 import java.util.Collections;
@@ -27,7 +26,7 @@ public class FinalExamMedium {
 
     public void sortArrUsingComparableInterface(){
         // TODO: write your code here.
-        // The comparison should be based on the sum of (strength + agility + intelligence) value.
+        // The sorting & comparison should be based on the sum of (strength + agility + intelligence) value.
         // For example, if we have:
         // arrMonster[0] = [ Dragon: S = 38, A = 10, I = 10, TOTAL = 58 ]
         // arrMonster[1] = [ Tortoise: S = 8, A = 33, I = 6, TOTAL = 47 ]
